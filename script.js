@@ -8,12 +8,12 @@ var LineOne = "Build Season has ended";
 var LineTwo = "Good Luck!";
 //banner images
 Images = [
-"images/image13.jpg",
-"images/image15.png",
-"images/image12.jpg",
-"images/image11.jpg",
-"images/image6.jpg",
-"images/image14.jpg"];
+"Images/image13.jpg",
+"Images/image15.png",
+"Images/image12.jpg",
+"Images/image11.jpg",
+"Images/image6.jpg",
+"Images/image14.jpg"];
 Comments = ["Presenting our Gracious Professionalism Award to team 3393",
 "Ariel Asist Ball in our home field",
 "Our robot for the Aburn Mountainview District competition",
