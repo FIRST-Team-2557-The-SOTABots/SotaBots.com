@@ -1,0 +1,15 @@
+<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Programming')">Programming</a></li>
+
+
+<div id="Programming" class="tabcontent">
+  <h2>The Programming Subteam</h2>
+  <h2> What is the Programming Team? </h2>
+		<p> In order for the robot to run efficiently, we have to type a program that would work properly for our robot. Programming is a form of trial and error; we create a code, test the code, then adjust the code to fix errors and we do this until our code works properly. All the programming is done by our team with the help of our mentors.
+<br/> <br/>
+If you’d like to take a look at our codes, <a href="https://github.com/First-Team-2557-SOTABots"> click here. </a> </p>
+<hr color="#fff66"/>
+</br>
+	<h2> What We Do </h2>
+		<p> We program robots in the Java programming language. Every programmer has a GitHub account so we can practice working in repositories and branches. It doesn’t matter what sort of level of experience you have coming into The SOTABots, when you leave, you’ll be in a position to give a workshop or lead the programming subteam with (relative) ease. Through collaboration among teammates as well as working with our programming mentors, each individual learns skills, such as how to work with others, meet deadlines, programming etiquette. </p>
+</br> 
+</div>
