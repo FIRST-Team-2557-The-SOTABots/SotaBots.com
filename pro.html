@@ -1,10 +1,12 @@
+<!DOCTYPE>
 <html>
 <head>
 <link rel="icon" href="favicon.png" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 <title>
-SotaBots
+SOTAbots
 </title>
+
 <script src="jquery-3.1.1.js"></script>
 <script src="index.css"></script>
 <script src="index.js"></script>
@@ -211,7 +213,47 @@ Finally, to drive over defense categories B and D, we’ll have a 6 wheel pneumati
 		<td>
 		<div id="vid">
   <iframe width="224px" height="126px" align="center" src="https://www.youtube.com/embed/CZZxZDop6UQ" frameborder="0" allowfullscreen></iframe> <h3> Watch the schedule update video for our new schedule! </h3> 
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="img.jpg" >
+  <img class="mySlides" src="img1.jpg" >
+<img class="mySlides" src="img2.jpg" >
+<img class="mySlides" src="img3.jpg" >
+<img class="mySlides" src="img4.jpg" >
+<img class="mySlides" src="img5.jpg" >
+<img class="mySlides" src="img6.jpg" >
+<img class="mySlides" src="img7.jpg" >
+<img class="mySlides" src="img8.jpg" >
+<img class="mySlides" src="img9.jpg" >
+  <img class="mySlides" src="img10.jpg" >
+  <img class="mySlides" src="img11.jpg" >
+<img class="mySlides" src="img12.jpg" >
+<img class="mySlides" src="img13.jpg" >
+<img class="mySlides" src="img14.jpg" >
+<img class="mySlides" src="img15.jpg" >
+<img class="mySlides" src="img16.jpg" >
+<img class="mySlides" src="img17.jpg" >
+<img class="mySlides" src="img18.jpg" >
+<img class="mySlides" src="img19.jpg" >
 
+</div>
+<!->
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+</script>
 		</div>
 		</td>
 		<td>
@@ -243,7 +285,7 @@ Our social outlets are <a href="https://www.youtube.com/channel/UC_X-co_7hp7nqun
 
 </div>
 
-
+<p align="right"> Powered by <strong> SOTAbots </strong> students </p>
 
 <script> 
 // Get the element with id="defaultOpen" and click on it
