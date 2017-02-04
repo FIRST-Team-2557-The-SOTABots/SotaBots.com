@@ -109,6 +109,18 @@ iframe {
 	margin: 10px;
 	width= 50%;
 }
+a:link {
+	color: rgb(177,19,11);
+}
+a:hover {
+	color: rgb(177,19,11);
+}
+a:visited {
+	color: rgb(100,74,18);
+}
+a:active {
+	color: rgb(247,95,88);
+}
 
 /*making the video responsive*/
 .vimeo-youtube {
