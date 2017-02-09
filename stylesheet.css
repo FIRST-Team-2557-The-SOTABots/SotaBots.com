@@ -62,6 +62,19 @@ float: right;
   overflow: hidden;
 }
 
+a:link {
+    color: rgb(191,3,1);
+}
+
+a:visited {
+    color:  rgb(86,9,5);
+}
+a:hover {
+    color: rgb(191,3,1);
+}
+a:active {
+    color: rgb(245,77,77);
+}
 
 h2 {
 	color: rgb(35, 45, 10);
@@ -163,7 +176,7 @@ ul.tab li a:focus, .active {background-color: rgb(243, 236, 28);}
 /* Style the tab content */
 .tabcontent {
     display: none;
-    padding: 6px 12px;
+	padding: 20px 30px 20px 30px;
     border-left: 7px solid rgb(175, 175, 0);
 	border-bottom: 7px solid rgb(175, 175, 0);
 	background-color: rgb(243, 236, 28);
