@@ -1,0 +1,193 @@
+body {
+	background-image: url("BKG.png");
+	background-size: cover;
+}
+
+p {
+	font-size: 16pt;
+	font-family: Arial;
+}
+
+#logowrap {
+	align: center;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+
+
+#bodywrap {
+	color: #000000;
+	background-color: rgb(243, 236, 28);
+	align: center;
+	border-left-style: solid;
+	border-bottom-style:solid;
+	border-width: 7px;
+	border-color: rgb(175, 175, 0);
+	margin: 2% 5% 2% 5%;
+	padding: 10px 20px 10px 20px;
+	word-wrap: break-word;
+	font-family: Arial;
+	overflow: hidden;
+}
+
+#teams {
+	align: center;
+	margin: 2% 5% 2% 5%;
+	padding: 10px 20px 10px 20px;
+	word-wrap: break-word;
+}
+
+#left {
+	Align: center;
+	Width:45%;
+}
+#right {
+	Align: center;
+	Width:50%;
+}
+
+#leftie {
+  float: left;
+  width: 50%;
+  overflow: hidden;
+}
+
+#rightie {
+float: right;
+  width: 50%;
+  overflow: hidden;
+}
+
+a:link {
+    color: rgb(191,3,1);
+}
+
+a:visited {
+    color:  rgb(86,9,5);
+}
+a:hover {
+    color: rgb(191,3,1);
+}
+a:active {
+    color: rgb(245,77,77);
+}
+
+h2 {
+	color: rgb(35, 45, 10);
+	text-align: center;
+	font-size: 20pt;
+	font-family: Arial;
+}
+
+h3 {
+	color: rgb(35, 45, 10);
+	text-align: center;
+	font-size: 16pt;
+	font-family: Arial;
+}
+
+table {
+	width: 90%;
+	align: center;
+	margin: auto;
+}
+tr {
+	Width: 50%
+	Height: 400px;
+	align: center;
+	margin: auto;
+}
+#vid {
+	display: block;
+	margin: 10px;
+}
+
+#split {
+	width= 50%;
+	Align= right;
+}
+	
+
+iframe { 
+	display: block;
+	margin: auto;
+}
+
+#vid {
+	display: block;
+	margin: 10px;
+	width= 50%;
+}
+
+/*making the video responsive*/
+.vimeo-youtube {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; 
+    height: 0; 
+    overflow: hidden;
+}
+.vimeo-youtube iframe,
+.vimeo-youtube object,
+.vimeo-youtube embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+	
+
+/* Style the list */
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-left: 7px solid rgb(175, 175, 0);
+    background-color: rgb(175, 175, 0);
+	font-family: Arial;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+  padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {background-color:rgb(243, 236, 100);}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {background-color: rgb(243, 236, 28);}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+	padding: 20px 30px 20px 30px;
+    border-left: 7px solid rgb(175, 175, 0);
+	border-bottom: 7px solid rgb(175, 175, 0);
+	background-color: rgb(243, 236, 28);
+	font-family: Arial;
+}
+
+
+.mySlides {
+	margin: auto;
+	padding: auto;
+	width: 85%;
+	img-align:center;
+}
+	
